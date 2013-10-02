@@ -18,5 +18,239 @@ Use it to make something cool, have fun, and share what you've learned with othe
 @import url('../twentythirteen/style.css');
 
 
-/* =Theme customization starts here
- * -------------------------------------------------------------- */
+*{font-family: "Palatino Linotype",times, serif; font-size: 102%}
+
+/**-----------FOR THE SPEAKER PAGE-----------------------------------*/
+
+
+.speakerContainer
+{
+/*float:absolute;*/
+margin-right: auto;
+margin-left: auto;
+width: 700px
+
+}
+
+.speakerColumn
+{
+
+    float: center;
+    padding: 3px 3px 4px;
+    width: inherit;
+    height: 200px;
+
+
+}
+
+.speakerRow
+{
+	float:left;
+    padding: 0;
+    vertical-align: center;
+
+}
+
+.speakerImage
+{
+	float: left;
+    margin: 0 1px 1px 0;
+    position: relative;
+    padding: 0;
+    margin: 10px;
+    border: 0 none;
+
+}
+
+.speakerCaption
+{
+	 bottom: 0;
+    height: 50px;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+     vertical-align: baseline;
+	background-color: rgba(255,255,255,.8);
+	text-align: center;
+	font-size: 100%;
+	}
+
+
+
+
+
+/**
+ * 3.0 Basic Structure
+ * ----------------------------------------------------------------------------
+ */
+
+
+.sidebar .entry-header, .sidebar .entry-content, .sidebar .entry-summary, .sidebar .entry-meta {
+    max-width: inherit;
+    padding: 0 150px 0 150px;
+}
+.site-main .sidebar-inner {
+	margin: 40px;
+	max-width: inherit;
+}
+
+
+
+
+/**
+ * 4.2 Navigation
+ * ----------------------------------------------------------------------------
+ */
+ /* Navbar */
+ .navbar {background-color: #4D4452;}
+
+.nav-menu .current_page_item > a,
+.nav-menu .current_page_ancestor > a,
+.nav-menu .current-menu-item > a,
+.nav-menu .current-menu-ancestor > a /*once its been clicked */
+{
+	color: #ffffff;
+	font-style: bold;
+	font-weight:bold; /*bolding when you select page*/
+	background-color:#f71f31; 
+}
+
+.nav-menu li:hover > a,
+.nav-menu li a:hover 
+{
+	background-color: #f71f31; 
+	color: #fff;
+} 
+/*previous festivals*/
+ul.nav-menu ul a:hover,
+.nav-menu ul ul a:hover {
+	background-color: #f71f31;
+}
+
+.nav-menu li a 
+{
+	color: #ffffff;
+	display: block;
+	font-size: 15px;
+	line-height: 1;
+	padding: 20px 20px;
+	text-decoration: none;
+}
+
+
+
+.nav-menu .current_page_item > a,
+.nav-menu .current_page_ancestor > a,
+.nav-menu .current-menu-item > a,
+.nav-menu .current-menu-ancestor > a 
+{
+	color: #ffffff;
+	font-style: normal; 
+}
+
+
+/**
+ * 5.3 Entry Content
+ * ----------------------------------------------------------------------------
+ */
+/* Page links */
+.page-links {
+	clear: both;
+	font-size: 16px;
+	font-style: Bold; /*was italicized*/
+	font-weight: normal;
+	line-height: 2.2;
+	margin: 20px 0;
+	text-transform: uppercase;
+}
+body {text-align: justify} /*Force all content to justify*/
+h1{color:4d4452;}
+h2{text-transform: uppercase;}
+	
+.entry-content img.alignleft,
+.entry-content .wp-caption.alignleft {
+	margin-left: 0px; /*there was some weird aligning happening, was -60px*/
+}
+
+.entry-content a,
+.comment-content a {
+	color: #f71f31;
+}
+
+.entry-content a:hover,
+.comment-content a:hover {
+	color: #4d4452;
+}
+
+.credits { /*class for the credits 'widget' that was moved into the post of 'Welcome'*/
+	background-color: rgba(247, 245, 231, 0.7);
+	font-size: 14px;
+	-webkit-hyphens: auto;
+	-moz-hyphens:    auto;
+	-ms-hyphens:     auto;
+	hyphens:         auto;
+	margin: 0 0 24px;
+	padding: 20px;
+	word-wrap: break-word;
+	display: block;
+	border-radius:5px;
+}
+
+/**
+ * 5.2 Entry Meta
+ * ----------------------------------------------------------------------------
+ */
+.entry-meta a {
+	color: #f71f31;
+}
+
+.entry-meta a:hover {
+	color: #f71f31;
+}
+
+
+/**
+ * 5.5 Post Formats
+ * ----------------------------------------------------------------------------
+ */
+
+
+.format-audio .entry-content a,
+.format-audio .entry-meta a,
+.format-audio .entry-content a:hover,
+.format-audio .entry-meta a:hover {
+	color: #f71f31;
+}
+
+
+
+/**
+ * 7.0 Footer
+ * ----------------------------------------------------------------------------
+ */
+ .site-footer .sidebar-container { /*footer widget area*/
+	background-color: #ffffff;
+}
+
+.site-footer .widget {
+    color: #f71f31;
+
+}
+
+
+ .site-footer { /*below the footer widget*/
+	background-color: #ffffff;
+	color: #ffffff ;
+	font-size: 0px;
+}
+
+/**
+ * 9.0 Print
+ * ----------------------------------------------------------------------------
+ */
+
+
+	
+
+
