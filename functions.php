@@ -1,3 +1,5 @@
+<?php
+
 /** 
  * custom functionality for we2014-theme
  *
@@ -7,7 +9,6 @@
  *
  */
 
-<?php
 function favicon_link() {
   echo '<link rel="shortcut icon" type="image/x-icon" href="' . get_stylesheet_directory_uri()  . '/images/favicon/favicon.ico" />' . "\n";
 }
