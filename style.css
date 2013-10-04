@@ -104,7 +104,45 @@ body{
 	max-width: inherit;
 }
 
+/**
+ * 4.1 Site Header
+ * ----------------------------------------------------------------------------
+ */
 
+.site-header {
+	position: relative;
+}
+
+.site-header .home-link {
+	color: #f71f31;
+	display: block;
+	margin: 0 auto;
+	max-width: 1080px;
+	min-height: 230px;
+	padding: 0 20px;
+	text-decoration: none;
+	width: 100%;
+}
+
+.site-header .site-title:hover 
+{
+}
+
+.site-title {
+	font-size: 40px;
+	text-transform: capitalize;
+	text-align: left;
+	font-weight: normal;
+	line-height: 1;
+	margin: 0;
+	padding: 80px 0 10px;
+}
+
+.site-description {
+	font: 300 italic 24px "Source Sans Pro", Helvetica, sans-serif;
+	color: #4D4452;
+	margin: 0;
+}
 
 
 /**
@@ -113,6 +151,7 @@ body{
  */
  /* Navbar */
  .navbar {background-color: #4D4452;}
+
 
 .nav-menu .current_page_item > a,
 .nav-menu .current_page_ancestor > a,
