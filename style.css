@@ -16,6 +16,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 /* =Imports styles from the parent theme
  * -------------------------------------------------------------- */
 @import url('../twentythirteen/style.css');
+@import url('http://fonts.googleapis.com/css?family=Raleway');
 
 
 /**{font-family: font-family: 'Raleway', sans-serif;; font-size: 102%}*/
@@ -269,6 +270,14 @@ h2{text-transform: uppercase;}
 	display: block;
 	border-radius:5px;
 }
+ 
+ ul.sponsors
+ {
+ 	list-style:none;
+ 	width:800px;
+ 	margin: 0px auto 20px auto;
+ }
+ li.sponsors{display:inline; padding:10px}
 
 /**
  * 5.2 Entry Meta
@@ -305,12 +314,17 @@ h2{text-transform: uppercase;}
  */
  .site-footer .sidebar-container { /*footer widget area*/
 	background-color: #ffffff;
-}
+	/*margin: 0px auto 0px auto !important;*/
+	margin-left: 100px;
+	}
 
 .site-footer .widget {
     color: #f71f31;
+    width: auto;
 
 }
+
+
 
 
  .site-footer { /*below the footer widget*/
