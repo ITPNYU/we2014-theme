@@ -274,7 +274,7 @@ h2{text-transform: uppercase;}
  ul.sponsors
  {
  	list-style:none;
- 	width:800px;
+ 	width:auto;
  	margin: 0px auto 20px auto;
  }
  li.sponsors{display:inline; padding:10px}
